@@ -1,0 +1,41 @@
+.home-page-container {
+    height: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.home-page-tabs-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-page-tabs-header {
+    display: flex;
+    justify-content: center;
+}
+
+.home-page-tabs-container {
+    height: 100%;
+    display: flex;
+}
+
+.home-page-tabs-header div {
+    border-bottom: 1px solid;
+    padding: 1rem;
+    cursor: pointer;
+
+}
+
+.home-page-tabs.selected {
+    background-color: lightgray;
+    border-radius: 10px 10px 0 0;
+}
+
+.home-container {
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    font-size: 3rem;
+}
