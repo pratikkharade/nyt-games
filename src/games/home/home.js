@@ -6,16 +6,16 @@ import SpellingBee from '../SpellingBee/SpellingBee';
 import Wordle from '../Wordle/Wordle';
 
 function HomePage(props) {
-    const [tabIdx, setTabIdx] = useState(null);
+    const [tabIdx, setTabIdx] = useState(0);
 
     return (
         <div className='home-page-container'>
             <div className='home-page-tabs-wrapper'>
                 <div className='home-page-tabs-header'>
                     <div className={`home-page-tabs ${tabIdx == 0 ? "selected" : ""}`} onClick={e => setTabIdx(0)}>Mini Crossword</div>
-                    <div className={`home-page-tabs ${tabIdx == 1 ? "selected" : ""}`} onClick={e => setTabIdx(1)}>Connections</div>
+                    {/* <div className={`home-page-tabs ${tabIdx == 1 ? "selected" : ""}`} onClick={e => setTabIdx(1)}>Connections</div>
                     <div className={`home-page-tabs ${tabIdx == 2 ? "selected" : ""}`} onClick={e => setTabIdx(2)}>Spelling Bee</div>
-                    <div className={`home-page-tabs ${tabIdx == 3 ? "selected" : ""}`} onClick={e => setTabIdx(3)}>Wordle</div>
+                    <div className={`home-page-tabs ${tabIdx == 3 ? "selected" : ""}`} onClick={e => setTabIdx(3)}>Wordle</div> */}
                 </div>
                 <div className='home-page-tabs-container'>
                     {tabIdx === null && <div className='home-container'>Pick a game to play!</div>}
