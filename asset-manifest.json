@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nyt-games/static/css/main.fafc4316.css",
-    "main.js": "/nyt-games/static/js/main.076357e8.js",
+    "main.js": "/nyt-games/static/js/main.20fc988c.js",
     "static/js/453.524ed57c.chunk.js": "/nyt-games/static/js/453.524ed57c.chunk.js",
     "index.html": "/nyt-games/index.html",
     "main.fafc4316.css.map": "/nyt-games/static/css/main.fafc4316.css.map",
-    "main.076357e8.js.map": "/nyt-games/static/js/main.076357e8.js.map",
+    "main.20fc988c.js.map": "/nyt-games/static/js/main.20fc988c.js.map",
     "453.524ed57c.chunk.js.map": "/nyt-games/static/js/453.524ed57c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fafc4316.css",
-    "static/js/main.076357e8.js"
+    "static/js/main.20fc988c.js"
   ]
 }
